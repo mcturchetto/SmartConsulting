@@ -1,0 +1,136 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+	font-size: 18px;
+	line-height: 1.7;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+	text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #FF6E00;
+    background: linear-gradient(130deg, #17D565 0%, #02A5BA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.view {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.view-wrap {
+  width: 50%;
+  background: #fff;
+  border-radius: 80px;
+  overflow: hidden;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 160px 60px 160px;
+}
+
+.titlecompany {
+    font-size: 3.25rem;
+
+    font-weight: 700;
+    background: linear-gradient(130deg, #17D565 0%, #02A5BA 100%);
+    padding-bottom: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titlecompanyintern {
+    font-size: 1.8rem;
+
+    font-weight: 700;
+    background: linear-gradient(130deg, #17D565 0%, #02A5BA 100%);
+    padding-bottom: 20px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.companytitle {
+  font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.vattitle {
+  font-size: 20px;
+    padding-bottom: 20px;
+	padding-left: 40px;
+    font-weight: 700;
+}
+
+.companyname {
+  font-size: 17px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.vat {
+  font-size: 17px;
+    padding-bottom: 20px;
+	padding-left: 40px;
+    font-weight: 500;
+}
+
+.backbutton {
+  background-color: #ffffff;
+  line-height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+	left: 0px;
+	top: -9px;
+  border: none;
+  color: #FFF;
+  display: inline-block;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+background-image: linear-gradient(to right, #11c87d, #08b3a2);
+    box-shadow: 0 1px 5px 0 rgba(163, 163, 163, 0.75);	
+}
+
+.backbutton:hover {
+  box-shadow: 0 3px 5px 0 rgba(163, 163, 163, 0.75);
+}
